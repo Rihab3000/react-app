@@ -1,0 +1,67 @@
+
+
+.gestbar {
+  display: grid;
+  grid-template-columns: 200px 1fr; /* Première colonne pour la barre de navigation, deuxième colonne pour le contenu */
+  gap: 20px; /* Espace entre les colonnes */
+}
+
+form {
+  width: 800px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-left: 10%;
+  margin-top: 3%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabgest {
+  width: 100%;
+}
+
+.tabgest td {
+  padding: 10px;
+}
+
+.tabgest label {
+  font-weight: bold;
+}
+
+.tabgest input,
+.tabgest select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.tabgest button {
+  width: 100%;
+  padding: 10px;
+  background-color: #030304;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.tabgest button:hover {
+  background-color: #0056b3;
+}
+
+.tabgest p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+

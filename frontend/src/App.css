@@ -1,0 +1,35 @@
+
+/*
+ .container {
+    display: flex;
+    justify-content: auto;
+    align-items: center;
+    height: 100vh;
+
+   
+  }*/
+  /*
+  .navbar2{
+   margin-bottom: 575px;
+   width:1200px;
+ 
+  } 
+  .form{
+    margin-right:50px;
+    margin: 0 auto;
+  }*/
+
+.container{
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+  background-image: url('./images/rectorat.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 1500px;
+  height: 100vh;
+ 
+
+}
+
+

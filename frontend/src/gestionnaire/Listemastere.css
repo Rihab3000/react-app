@@ -1,0 +1,42 @@
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style pour les boutons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.navmast {
+  display: grid;
+  grid-template-columns: 200px 1fr; 
+  gap: 20px; 
+}
+ tr:hover {
+  background-color: #f0f0f0;
+}

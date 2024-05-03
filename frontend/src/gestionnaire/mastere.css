@@ -1,0 +1,89 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 50px;
+    margin-top: 50px; 
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 25px 25px 25px rgba(9, 9, 9, 0.1);
+  }
+  
+  .links-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .links-container a {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .links-container a:hover {
+    background-color: #0056b3;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .success-message {
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 50px;
+    color: green;
+    background-color: #d4ffd4;
+  }
+  
+  .error-message {
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 50px;
+    color: red;
+    background-color: #ffd4d4;
+  }
+  
+  @media screen and (max-height: 500px) {
+    .table {
+      overflow-y: auto;
+      overflow-x: hidden;
+      max-height: 500px;
+    }
+  }
+  
+  @media screen and (hover: hover) {
+    .form:hover {
+      transform: translateY(-5px);
+      transition: transform 0.3s ease;
+    }
+  }
+  
+  .mastere {
+    display: grid;
+    grid-template-columns: 200px 1fr; /* Première colonne pour la barre de navigation, deuxième colonne pour le contenu */
+    gap: 20px; /* Espace entre les colonnes */
+  }  
+ 

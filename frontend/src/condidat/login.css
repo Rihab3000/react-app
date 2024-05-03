@@ -1,0 +1,92 @@
+.conteneur1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.form {
+  width: 1000px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.form input {
+  width: 75%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #ccc; /* Ajoute une bordure grise */
+  background-color: #f8f8f8; /* Ajoute un fond gris clair */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
+
+
+.form button {
+  width: 50%;
+  padding: 8px;
+  margin-top: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 195px;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+
+.error-message,
+ .success-message {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+
+}
+
+.error-message.show, .success-message.show {
+  opacity: 1;
+}
+
+
+h1 {
+  color: #000000; 
+  font-size: 2rem; 
+  font-weight: bold; 
+  text-align: center; 
+  margin-bottom: 20px; 
+  margin-top: 12px;
+}
+
+#Teep1 {
+  flex: 1;
+  max-width: 8%;
+  height:auto;
+  background-color: #f5f5f5;
+ margin-left: 2%;
+}
+#Teep2 {
+  flex: 1;
+  max-width: 8%;
+  height: auto;
+  background-color: #f5f5f5;
+  margin-top: 0.1%;
+  margin-left: 80%;
+}

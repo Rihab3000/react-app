@@ -1,0 +1,25 @@
+.conteneur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300vh; /* Pour centrer verticalement */
+  }
+  
+  table2 {
+    width: 100%; /* Pour occuper toute la largeur disponible */
+    border-collapse: collapse;
+    margin-top: 1.2px;
+    align-items: center;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  
+  }
+  .navmodifgest {
+    display: grid;
+    grid-template-columns: 200px 1fr; 
+    gap: 20px; 
+  }

@@ -1,0 +1,50 @@
+.nav1 {
+    font-family: Arial, sans-serif;
+    background-color: #040505;
+    border-right: 1px solid #ccc;
+    width: 200px;
+    height: 600px;
+    margin-top: 0px;
+   
+  }
+  .nav1 ul li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px; 
+  }
+  
+  .nav1 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: aliceblue;
+ 
+  }
+  
+  .nav1 ul li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nav1 ul li:hover {
+    background-color: #581703;
+  }
+   #monImage {
+      width: 200px; 
+      height: 50px; 
+      margin-left: 0.1px;
+    
+
+    }
+    #monImage1{
+
+      width: 50px; 
+      height: 25px; 
+   
+    }
+    .nav1-a:active{
+      background-color: #0cca58; 
+    }

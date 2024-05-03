@@ -1,0 +1,93 @@
+.conteneurcdt {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+  height: 100vh; /* Utiliser toute la hauteur de la fenêtre */
+  background-image: url('../images/rectorat.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.logincdt {
+  width: 600px;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 80%;
+}
+
+
+
+
+.logincdt input {
+  width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: 1px solid #ccc; 
+  background-color: #f8f8f8; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+  margin-left: 25px;
+  padding: 8px; 
+  width: 50%; 
+  box-sizing: border-box; 
+}
+
+.logincdt  button {
+  width: 80%;
+  padding: 8px;
+  margin-top: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 50px;
+  padding: 8px;
+}
+
+.logincdt button:hover {
+  background-color: #0056b3;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0c0c0c;
+  font-size: 14px;
+}
+
+
+
+button:hover {
+  background-color: #0056b3;
+}
+/*
+.password-input-container {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 8px; 
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+*/
+#rectorat {
+
+  border-radius: 25px; 
+  margin-left: 25%;
+  height: 30%;
+ 
+}
+.square{
+display: inline-block;
+padding: 20px;
+border: 1px solid #000000;
+border-radius: 15% ;
+width:80%;
+height: 50%;
+margin-left: 15px;}

@@ -1,0 +1,10 @@
+
+  .etabar {
+    display: grid;
+    grid-template-columns: 200px 1fr; /* Première colonne pour la barre de navigation, deuxième colonne pour le contenu */
+    gap: 20px; /* Espace entre les colonnes */
+  }
+  .h1{
+    color: #000;
+  }
+ 
